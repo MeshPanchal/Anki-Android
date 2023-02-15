@@ -99,3 +99,10 @@ class Factor(factorString: String, private val parser: TopLevelParser) : TreeEle
         }
     }
 }
+
+class demo {
+    private val hello = "hello github"
+    fun hello(){
+        println(hello)
+    }
+}
