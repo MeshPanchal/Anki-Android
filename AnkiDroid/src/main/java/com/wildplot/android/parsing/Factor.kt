@@ -97,3 +97,11 @@ class Factor(factorString: String, private val parser: TopLevelParser) : TreeEle
         }
     }
 }
+
+
+class test{
+    val test = 3
+    fun testing(){
+        println(test)
+    }
+}
