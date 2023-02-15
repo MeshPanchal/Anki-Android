@@ -24,6 +24,8 @@ class Factor(factorString: String, private val parser: TopLevelParser) : TreeEle
         private set
     private var factor: Factor? = null
     private var pow: Pow? = null
+
+
     private fun initAsPlusFactor(factorString: String): Boolean {
         if (factorString.length > 0 && factorString[0] == '+') {
             val leftSubString = factorString.substring(1)
